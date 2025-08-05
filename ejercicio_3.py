@@ -5,7 +5,7 @@ palabra = input("Ingrese una palabra: ")
 palabra =palabra.replace(" ","").lower()
 
 for letra in palabra:
-    if letra.lower() in "aeiou":
+    if letra in "aeiou":
         vocales += 1
     elif letra.isalpha():
         consonantes += 1

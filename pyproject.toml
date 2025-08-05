@@ -1,0 +1,17 @@
+[project]
+name = "python-modulo-1"
+version = "0.1.0"
+description = "Introduccion a python"
+authors = [
+    {name = "y"}
+]
+license = {text = "no"}
+readme = "README.md"
+requires-python = "si"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
